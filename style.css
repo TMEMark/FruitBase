@@ -10,7 +10,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
-        grid-gap: 50px;
+        grid-gap: 80px;
         grid-template-areas:
         "navBar navBar navBar navBar"
         "body body body body"
