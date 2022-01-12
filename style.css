@@ -3,8 +3,6 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        width:100%;
-        height: 100%;
         
     }
     body {
@@ -21,12 +19,77 @@
     .navBar{
         grid-area: navBar;
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+    }
+
+    .navBar > .logo {
+        grid-column: 1;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .navBar > .logo > p{
+        font-size: 36px;
+    }
+
+    .navBar > .logo > p > #coloredLogo {
+        color: rgba(133, 202, 79, 1);
+    }
+
+    .navBar > .links {
+        grid-column: 4;
+        margin-top: 50px;
+    }
+
+    .navBar > .links > a{
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 15px;
+        color: rgb(20, 20, 20);
+    }
+    .navBar > .links > #home{
+        margin-left: 120px;
     }
 
     .body {
         grid-area: body;
-        margin-left: 50px;
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .body > .text{
+        grid-column: 1;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    .body .text >  h1 {
+        font-size: 40px;
+        color: rgba(133, 202, 79, 1);
+    }
+    .body .text >  p {
+        font-size: 28px;
+        padding-top: 10px;
+    }
+
+    #pOne {
+        padding-top: 30px;
+    }
+
+    .body .text >  input {
+        background-color: rgba(133, 202, 79, 1);
+        color: rgb(236,236,236);
+        font-size: 30px;
+        margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 0;
+    }
+
+    .body .text >  input:hover{
+        background-color: rgb(116, 190, 60);
+        cursor: pointer;
     }
 }
