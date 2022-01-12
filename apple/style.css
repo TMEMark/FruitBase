@@ -1,0 +1,23 @@
+.navBar > .logo > p > #coloredLogo {
+    color: rgba(211, 20, 27, 1);
+}
+
+.body .text >  h1 {
+    color: rgba(211, 20, 27, 1);
+}
+
+.body .text > #pTwo {
+    font-size: 20px;
+}
+
+.body .text > #pThree {
+    font-size: 20px;
+}
+
+.body .text > .buttonSite > .button {
+    background-color: rgba(211, 20, 27, 1);
+}
+
+.body .text > .buttonSite > .button:hover{
+    background-color: rgb(182, 24, 29);
+}

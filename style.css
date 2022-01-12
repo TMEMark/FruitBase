@@ -76,19 +76,22 @@
         padding-top: 30px;
     }
 
-    .body .text >  input {
+    .body .text > .buttonSite {
+        margin-top: 60px;
+    }
+
+    .body .text > .buttonSite > .button {
         background-color: rgba(133, 202, 79, 1);
         color: rgb(236,236,236);
         font-size: 30px;
-        margin-top: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 40px;
         padding-right: 40px;
-        border: 0;
+        text-decoration: none;
     }
 
-    .body .text >  input:hover{
+    .body .text > .buttonSite > .button:hover{
         background-color: rgb(116, 190, 60);
         cursor: pointer;
     }
