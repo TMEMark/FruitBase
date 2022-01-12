@@ -44,11 +44,11 @@
     .navBar > .links > a{
         font-size: 20px;
         text-decoration: none;
-        margin-left: 15px;
+        margin-left: 25px;
         color: rgb(20, 20, 20);
     }
     .navBar > .links > #home{
-        margin-left: 120px;
+        margin-left: 60px;
     }
 
     .body {
@@ -91,5 +91,11 @@
     .body .text >  input:hover{
         background-color: rgb(116, 190, 60);
         cursor: pointer;
+    }
+
+    .body > .image{
+        grid-column: 2;
+        margin-top: 100px;
+        margin-left: 100px;
     }
 }
