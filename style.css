@@ -39,6 +39,7 @@
     .navBar > .links {
         grid-column: 4;
         margin-top: 50px;
+        position: relative;
     }
 
     .navBar > .links > a{
@@ -46,7 +47,79 @@
         text-decoration: none;
         margin-left: 25px;
         color: rgb(20, 20, 20);
+        opacity: 0.9;
     }
+    .navBar > .links > a:hover {
+        opacity: 1;
+      }
+      
+      .navBar > .links > a::before {
+        transition: 300ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+      }
+
+      .navBar > .links > #home::before {
+        background-color: rgba(133, 202, 79, 1);
+      }
+
+      .navBar > .links > #apple::before {
+        background-color: rgba(211, 20, 27, 1);
+      }
+
+      .navBar > .links > #blueberries::before {
+        background-color: rgba(65, 92, 206, 1);
+      }
+
+      .navBar > .links > #grape::before {
+        background-color: rgba(66, 61, 114, 1);
+      }
+
+      .navBar > .links > #orange::before {
+        background-color: rgba(255, 132, 0, 1);
+      }
+
+      .navBar > .links > #peach::before {
+        background-color: rgba(229, 141, 81, 1);
+      }
+
+      .navBar > .links > #pear::before {
+        background-color: rgba(162, 193, 75, 1);
+      }
+      
+      .navBar > .links > a::before {
+        width: 0%;
+        bottom: 1px;
+      }
+      
+      .navBar > .links > #home:hover::before {
+        width: 7%;
+      }
+
+      .navBar > .links > #apple:hover::before {
+        width: 6.6%;
+      }
+
+      .navBar > .links > #blueberries:hover::before {
+        width: 13%;
+      }
+
+      .navBar > .links > #grape:hover::before {
+        width: 7%;
+      }
+
+      .navBar > .links > #orange:hover::before {
+        width: 9%;
+      }
+
+      .navBar > .links > #peach:hover::before {
+        width: 7.5%;
+      }
+
+      .navBar > .links > #pear:hover::before {
+        width: 5.7%;
+      }
     .navBar > .links > #home{
         margin-left: 60px;
     }
