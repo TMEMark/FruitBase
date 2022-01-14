@@ -6,6 +6,7 @@ var btn = document.getElementsByClassName("button");
 //Hidden table
 tableEl.style.display = "none";
 
+//Function that toggles table and paragraph visibility
 function toggle() {
     if(tableEl.style.display === "none"){
         tableEl.style.display = "block";
