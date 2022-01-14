@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="style.css">
     <title>Apple</title>
@@ -30,23 +31,79 @@
             <h1>
                 APPLE
             </h1>
-            <p id="pOne">
-                "Apple a day 
-            </p>
-            <p>
-                keeps doctor away."
-            </p>
-            <p id="pTwo">Find out why is this true.</p>
-            <p id="pThree">Click on a button to get table of nutrients and vitamins.</p>
+            <div class="paragraph">
+                <p id="pOne">
+                    "Apple a day 
+                </p>
+                <p>
+                    keeps doctor away."
+                </p>
+                <p id="pTwo">Find out why is this true.</p>
+                <p id="pThree">Click on a button to get table of nutrients and vitamins.</p>
+            </div>
+            <div class="table" id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nutrients and vitamins</th>
+                            <th>Quantity in grams</th>
+                        </tr>
+                    </thead>
+                    <tbody> 
+                        <tr>
+                            <td>Fat</td>
+                            <td>0g</td>
+                        </tr>
+                        <tr>
+                            <td>Cholesterol</td>
+                            <td>0g</td>
+                        </tr>
+                        <tr>
+                            <td>Sodium</td>
+                            <td>2mg</td>
+                        </tr>
+                        <tr>
+                            <td>Dietary fiber</td>
+                            <td>4g</td>
+                        </tr>
+                        <tr>
+                            <td>Sugars</td>
+                            <td>19g</td>
+                        </tr>
+                        <tr>
+                            <td>Protein</td>
+                            <td>0g</td>
+                        </tr>
+                        <tr>
+                            <td>Vitamin A</td>
+                            <td>2%</td>
+                        </tr>
+                        <tr>
+                            <td>Vitamin C</td>
+                            <td>14%</td>
+                        </tr>
+                        <tr>
+                            <td>Calcium</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr>
+                            <td>Iron</td>
+                            <td>1%</td>
+                        </tr>
+                    </tbody>       
+                </table>
+            </div>
             <div class="buttonSite">
-                <a type="button" href="https://www.myplate.gov/eat-healthy/fruits" value="Learn more" target="_blank" class="button">Learn more</a>
+                <button class="button" onclick="toggle()">Show table</button>
             </div>
         </div>
+        
         <div class="image">
             <img src="../images/imageApple.png" alt="">
         </div>
     </div>
     <div class="footer">
     </div>
+    <script src="../js/functions.js"></script>
 </body>
 </html>

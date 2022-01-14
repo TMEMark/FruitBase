@@ -6,7 +6,7 @@
         
     }
     body {
-        font-family: 'nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
@@ -90,38 +90,38 @@
       
       .navBar > .links > a::before {
         width: 0%;
-        bottom: 1px;
+        bottom: 6px;
       }
       
       .navBar > .links > #home:hover::before {
-        width: 7%;
+        width: 8%;
       }
 
       .navBar > .links > #apple:hover::before {
-        width: 6.6%;
+        width: 7.6%;
       }
 
       .navBar > .links > #blueberries:hover::before {
-        width: 13%;
+        width: 14%;
       }
 
       .navBar > .links > #grape:hover::before {
-        width: 7%;
+        width: 8%;
       }
 
       .navBar > .links > #orange:hover::before {
-        width: 9%;
+        width: 10%;
       }
 
       .navBar > .links > #peach:hover::before {
-        width: 7.5%;
+        width: 8%;
       }
 
       .navBar > .links > #pear:hover::before {
         width: 5.7%;
       }
     .navBar > .links > #home{
-        margin-left: 60px;
+        margin-left: 15px;
     }
 
     .body {
@@ -162,6 +162,7 @@
         padding-left: 40px;
         padding-right: 40px;
         text-decoration: none;
+        border: none;
     }
 
     .body .text > .buttonSite > .button:hover{

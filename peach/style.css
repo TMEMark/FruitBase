@@ -6,11 +6,16 @@
     color: rgba(229, 141, 81, 1);
 }
 
-.body .text > #pTwo {
+.body .text > .paragraph > p {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.body .text > .paragraph > #pTwo {
     font-size: 20px;
 }
 
-.body .text > #pThree {
+.body .text > .paragraph > #pThree {
     font-size: 20px;
 }
 
@@ -20,4 +25,44 @@
 
 .body .text > .buttonSite > .button:hover{
     background-color: rgb(197, 122, 73);
+}
+
+.body .table {
+    grid-column: 1;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 400px;
+}
+
+table thead th {
+    background-color: rgba(229, 141, 81, 1);
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid rgba(229, 141, 81, 1);
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: rgba(229, 141, 81, 1);
 }
